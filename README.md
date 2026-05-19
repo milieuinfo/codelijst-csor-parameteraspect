@@ -44,6 +44,8 @@ src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/csor/parameteras
 https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/parameteraspect
 ```
 
+Named graph (Virtuoso): `https://data.omgeving.vlaanderen.be/id/graph/codelijst-csor-parameteraspect`
+
 ## Licentie
 
 GNU General Public License v3.0 — zie [LICENSE](LICENSE).
