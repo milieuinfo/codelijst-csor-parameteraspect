@@ -1,6 +1,7 @@
 PREFIX csor:             <https://data.omgeving.vlaanderen.be/ns/csor#>
 PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraints#>
 PREFIX dc:               <http://purl.org/dc/elements/1.1/>
+PREFIX dcat:             <https://www.w3.org/ns/dcat#>
 PREFIX dct:              <http://purl.org/dc/terms/>
 PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
 PREFIX owl:              <http://www.w3.org/2002/07/owl#>
@@ -84164,10 +84165,12 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.omgeving.vlaanderen.be/id/concept/csor/parameteraspect/PAS_7181>
         rdf:type             skos:Concept , csor:ParameterAspect;
-        owl:deprecated       false;
+        dct:valid            "2026-09-23"^^xsd:date;
+        owl:deprecated       true;
         skos:inScheme        <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/parameteraspect>;
         skos:prefLabel       "pH (standaard in water): massaconcentratie"@nl;
         skos:topConceptOf    <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/parameteraspect>;
+        csor:geldigTot       "2026-09-23"^^xsd:date;
         csor:heeftAspect     <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_1>;
         csor:heeftParameter  <https://data.omgeving.vlaanderen.be/id/concept/csor/parameter/P_1204> .
 
