@@ -231612,9 +231612,26 @@
   }
    ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/parameteraspect/PAS_7181" : { 
+    "http://purl.org/dc/terms/valid" : [ { 
+      "type" : "literal" ,
+      "value" : "2026-09-23" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#date"
+    }
+     ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/parameteraspect"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#geldigTot" : [ { 
+      "type" : "literal" ,
+      "value" : "2026-09-23" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#date"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftParameter" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/parameter/P_1204"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
@@ -231623,14 +231640,9 @@
       "lang" : "nl"
     }
      ] ,
-    "https://data.omgeving.vlaanderen.be/ns/csor#heeftParameter" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/parameter/P_1204"
-    }
-     ] ,
     "http://www.w3.org/2002/07/owl#deprecated" : [ { 
       "type" : "literal" ,
-      "value" : "false" ,
+      "value" : "true" ,
       "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
     }
      ] ,
